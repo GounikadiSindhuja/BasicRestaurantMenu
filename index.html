@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rinkey Restaurant - Fine Dining Menu</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="menu-container">
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-content">
+        <h1 class="restaurant-title">SV Restaurant</h1>
+        <p class="restaurant-tagline">Fine Dining Experience</p>
+        <div class="hero-divider"></div>
+        <div class="hero-decorations">
+          <div class="decoration-circle circle-1"></div>
+          <div class="decoration-circle circle-2"></div>
+          <div class="decoration-circle circle-3"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Navigation -->
+    <nav class="menu-nav">
+      <button class="nav-btn active" data-category="all">All</button>
+      <button class="nav-btn" data-category="appetizers">Appetizers</button>
+      <button class="nav-btn" data-category="main-course">Main Course</button>
+      <button class="nav-btn" data-category="beverages">Beverages</button>
+      <button class="nav-btn" data-category="desserts">Desserts</button>
+    </nav>
+
+    <!-- Menu Content -->
+    <div class="menu-content">
+      <!-- Appetizers Section -->
+      <section class="menu-section" id="appetizers-section">
+        <div class="section-header">
+          <h2 class="section-title">Appetizers</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="menu-grid" id="appetizers"></div>
+      </section>
+
+      <!-- Main Course Section -->
+      <section class="menu-section" id="main-course-section">
+        <div class="section-header">
+          <h2 class="section-title">Main Course</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="menu-grid" id="main-course"></div>
+      </section>
+
+      <!-- Beverages Section -->
+      <section class="menu-section" id="beverages-section">
+        <div class="section-header">
+          <h2 class="section-title">Beverages</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="menu-grid" id="beverages"></div>
+      </section>
+
+      <!-- Desserts Section -->
+      <section class="menu-section" id="desserts-section">
+        <div class="section-header">
+          <h2 class="section-title">Desserts</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="menu-grid" id="desserts"></div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="restaurant-footer">
+      <div class="footer-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="contact-icon">📞</span>
+            <span>+1 (555) 123-4567</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <span>123 Fine Dining St, City</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">🕒</span>
+            <span>Mon-Sun: 5PM-11PM</span>
+          </div>
+        </div>
+        <div class="footer-divider"></div>
+        <p class="footer-text">&copy; 2024 SV Restaurant. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+  <script src="menu.js"></script>
+</body>
+</html>
